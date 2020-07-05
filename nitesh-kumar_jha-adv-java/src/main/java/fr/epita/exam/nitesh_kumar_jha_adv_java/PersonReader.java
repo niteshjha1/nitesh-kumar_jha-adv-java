@@ -14,7 +14,7 @@ package fr.epita.exam.nitesh_kumar_jha_adv_java;
 	public class PersonReader {
 	    private static List<Person> personList;
 	    public static void main(String args[]) throws IOException {
-	        String fileName="C:\\Users\\NITESH JHA\\eclipse-workspace\\nitesh-kumar_jha-adv-java\\data.csv";
+	        String fileName="C:\\Users\\NITESH JHA\\Documents\\projects\\nitesh-kumar_jha-adv-java\\data.csv";
 	        personList=readCsvFile(fileName);
 	        System.out.println("Befor sorting person Data is ");
 	        for(Person person:personList){
